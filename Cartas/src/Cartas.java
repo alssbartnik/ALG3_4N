@@ -3,6 +3,8 @@ import java.util.Random;
 
 public class Cartas {
 	
+	public static void main(String[] args){
+	
 	Random n = new Random();
     int[] j1 = new int[5];
     int[] j2 = new int[5];
@@ -21,5 +23,6 @@ public class Cartas {
     System.out.println("Jogador 3: "+j3[0]+" "+j3[1]+" "+j3[2]+" "+j3[3]+" "+j3[4]);
     System.out.println("Jogador 4: "+j4[0]+" "+j4[1]+" "+j4[2]+" "+j4[3]+" "+j4[4]);
 
+}
 }
 }
